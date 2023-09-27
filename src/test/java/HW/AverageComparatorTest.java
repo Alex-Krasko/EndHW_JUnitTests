@@ -28,6 +28,5 @@ class AverageComparatorTest {
             list2.add(620); // average = 641
         }
         assertThat(AverageComparator.AverageComparator(list1, list2)).isEqualTo(2);
-
     }
 }

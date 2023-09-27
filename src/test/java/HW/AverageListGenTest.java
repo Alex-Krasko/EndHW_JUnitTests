@@ -13,6 +13,5 @@ class AverageListGenTest {
         int boundNums = 100;
         ArrayList<Integer> list = AverageListGen.AverageListGen(colLength, boundNums);
         assertThat(list).isNotNull();
-
     }
 }

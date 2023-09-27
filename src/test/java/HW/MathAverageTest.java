@@ -8,7 +8,6 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MathAverageTest {
-
     @Test
     void mathAverage() {
         ArrayList<Integer> list = new ArrayList<Integer>();
